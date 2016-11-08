@@ -170,16 +170,6 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := CNEService
-LOCAL_MODULE_OWNER := oneplus
-LOCAL_SRC_FILES := proprietary/priv-app/CNEService/CNEService.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
-include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilmsgtunnel
@@ -192,16 +182,6 @@ LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := QtiTetherService
-LOCAL_MODULE_OWNER := oneplus
-LOCAL_SRC_FILES := proprietary/priv-app/QtiTetherService/QtiTetherService.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
-include $(BUILD_PREBUILT)
 
 endif
 endif
