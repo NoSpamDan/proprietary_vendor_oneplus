@@ -48,6 +48,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/oneplus/sdm845-common/proprietary/framework/vendor.qti.hardware.data.latency-V1.0-java.jar:system/framework/vendor.qti.hardware.data.latency-V1.0-java.jar \
     vendor/oneplus/sdm845-common/proprietary/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:system/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
+    vendor/oneplus/sdm845-common/proprietary/framework/vendor.qti.hardware.soter-V1.0-java.jar:system/framework/vendor.qti.hardware.soter-V1.0-java.jar \
+    vendor/oneplus/sdm845-common/proprietary/framework/vendor.qti.ims.callinfo-V1.0-java.jar:system/framework/vendor.qti.ims.callinfo-V1.0-java.jar \
+    vendor/oneplus/sdm845-common/proprietary/framework/vendor.qti.voiceprint-V1.0-java.jar:system/framework/vendor.qti.voiceprint-V1.0-java.jar \
+    vendor/oneplus/sdm845-common/proprietary/lib/android.hardware.light@2.0.so:system/lib/android.hardware.light@2.0.so \
+    vendor/oneplus/sdm845-common/proprietary/etc/sysconfig/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml \
+    vendor/oneplus/sdm845-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/oneplus/sdm845-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/oneplus/sdm845-common/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/lib/com.quicinc.cne.server@1.0.so:system/lib/com.quicinc.cne.server@1.0.so \
