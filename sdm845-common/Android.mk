@@ -27,7 +27,6 @@ LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
->>>>>>> e30d22a3... Import sdm845-common
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -42,7 +41,6 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-<<<<<<< HEAD
 LOCAL_MODULE := datastatusnotification
 LOCAL_MODULE_OWNER := oneplus
 LOCAL_SRC_FILES := proprietary/app/datastatusnotification/datastatusnotification.apk
